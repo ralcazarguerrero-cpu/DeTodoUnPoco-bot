@@ -1,0 +1,13 @@
+# Ignorar archivos del sistema
+.gitconfig
+.vscode
+.env
+*.log
+NTUSER.DAT*
+*VirtualBox*
+*.blf
+*.regtrans-ms
+
+# Ignorar archivos del sistema de Windows
+Thumbs.db
+Desktop.ini
