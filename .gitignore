@@ -1,13 +1,29 @@
-# Ignorar archivos del sistema
+# Archivos del sistema y del entorno
 .gitconfig
 .vscode
-.env
-*.log
+Thumbs.db
+Desktop.ini
 NTUSER.DAT*
 *VirtualBox*
 *.blf
 *.regtrans-ms
 
-# Ignorar archivos del sistema de Windows
-Thumbs.db
-Desktop.ini
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Base de datos
+pedidos.db
+
+# Variables de entorno y secretos
+.env
+
+# Logs
+*.log
+
+# Otros archivos temporales
+*.tmp
+*.bak
