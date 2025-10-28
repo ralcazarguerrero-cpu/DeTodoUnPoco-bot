@@ -10,7 +10,7 @@ from telegram.ext import (
     ContextTypes,
 )
 
-BOT_TOKEN = os.getenv("8348126284:AAGfAYCesHpiKN90Rlyjww8UbbBBuIXSHac")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 MODO_PAGO_DEMO = True
 CURRENCY = "EUR"
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
@@ -177,3 +177,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
