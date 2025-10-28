@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python bot.py"
+    envVars:
+      - key: BOT_TOKEN
+        sync: false  # Configúralo manualmente en Render (nunca lo pongas aquí)
+      - key: WEBHOOK_URL
+        sync: false  # Ejemplo: https://tu-app.onrender.com
